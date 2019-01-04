@@ -2,7 +2,7 @@ const _ = require('lodash');
 const assert = require('assert');
 const compose = require('koa-compose');
 const path = require('path');
-const Router = require('koa-oai-router');
+const Router = require('koa-oai-router-cc');
 const debug = require('debug')('koa-oai-router:middleware');
 
 const { Plugin } = Router;

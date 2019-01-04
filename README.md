@@ -103,3 +103,7 @@ app.use(router.routes());
           items:
             $ref: "#/definitions/Pet"
 ```
+
+# Fork https://github.com/oaijs/koa-oai-router-middleware
+
+1. 对多个 controller 目录识别 (plugin)
